@@ -28,4 +28,10 @@
 
 	End Function
 
+	Public Shared Function ToChar(input As Char) As Integer
+
+		Return Asc(input)
+
+	End Function
+
 End Class
